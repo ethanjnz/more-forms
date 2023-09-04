@@ -2,7 +2,7 @@ import React from 'react'
 
 export const DisplayInfo = (props) => {
     return (
-        <div>
+        <div className='card shadow w-25 mx-auto'>
             <h2>Your Form Data</h2>
             <p>First Name: {props.firstname}</p>
             <p>Last Name: {props.lastname}</p>
